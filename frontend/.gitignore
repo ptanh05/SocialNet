@@ -13,7 +13,7 @@ dist-ssr/
 # Vite
 .vite/
 
-# Vercel (deployment config, auto-generated)
+# Vercel (project config, auto-generated, auto-added by Vercel)
 .vercel/
 
 # Logs

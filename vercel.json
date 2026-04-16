@@ -1,16 +1,9 @@
 {
-  "projects": [
-    {
-      "path": "frontend",
-      "git": {
-        "deploymentEnabled": {
-          "production": true
-        }
-      }
-    }
-  ],
   "framework": null,
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "cd frontend && npm install"
+  "installCommand": "cd frontend && npm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
